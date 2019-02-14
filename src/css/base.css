@@ -1,0 +1,167 @@
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,section,article,aside,header,footer,nav,dialog,figure,hgroup{margin:0;padding:0;}
+input,select,textarea{font-size:100%;}
+table {border-collapse:collapse;border-spacing:0}
+fieldset,img {border:0;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+ul,ol,li{list-style:none}
+em,i{font-style:normal}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;}
+img{border:0;max-width:100%;}
+input,img{vertical-align:middle;}
+input:focus,a:focus{outline:none;}
+a{color:#333333;text-decoration:none;}
+a:active{opacity:.7;}
+*{outline:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-box-sizing:border-box;box-sizing:border-box;}
+html{-webkit-text-size-adjust:none;overflow-y:scroll;}
+
+.grey{
+	color:#b2b2b2;
+}
+.white{
+	color:#fff;
+
+}
+.black{
+	color:#666;
+}
+.green{
+	color:#74B33D;
+}
+.clear:after{
+	content:"";
+	height:0;
+	line-height:0;
+	display:block;
+	visibility:hidden;
+	clear:both
+}
+.el{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.elDb{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+}
+
+/* 
+  rem为750px  1rem为10px/50 = 0.2rem
+ */
+
+html{font-size:50px;}
+body{font-size:24px; max-width:2000px; min-width: 260px; margin:0 auto; font-family:'MicrosoftYaHei','PingFangSC','Helvetica'; background:#000;}
+/* @media screen and (min-width:260px){
+  html{font-size:17.3333333333px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:280px){
+  html{font-size:18.6666666667px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:300px){
+  html{font-size:20px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:320px){
+  html{font-size:21.333333333333332px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:360px){
+  html{font-size:24px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:375px){
+  html{font-size:25px;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:384px){
+html{font-size:25.6px;}
+body{font-size:14px;}
+}
+@media screen and (min-width:400px){
+html{font-size:26.666666666666668px;}
+body{font-size:14px;}
+}
+@media screen and (min-width:414px){
+html{font-size:27.6px;}
+body{font-size:14px;}
+}
+@media screen and (min-width:424px){
+html{font-size:28.266666666666667px;}
+body{font-size:14px;}
+}
+@media screen and (min-width:480px){
+html{font-size:32px;}
+body{font-size:15.36px;}
+}
+@media screen and (min-width:540px){
+html{font-size:36px;}
+body{font-size:17.28px;}
+}
+@media screen and (min-width:640px){
+html{font-size:42.266666666666667px;}
+body{font-size:20.28px;}
+}
+@media screen and (min-width:720px){
+html{font-size:48px;}
+body{font-size:23.04px;}
+}
+@media screen and (min-width:750px){
+html{font-size:50px;}
+body{font-size:24px;}
+} */
+
+/**loading样式**/
+/* .loading{
+  background:#fff;
+  position:fixed;
+  top:50%;
+  margin-left:-2.7rem;
+  margin-top:-2.7rem;
+  left:50%;
+  width:5.4rem;
+  height:5.4rem;
+  z-index:100;
+  border-radius:.24rem;
+}
+.loadingBom{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+.loadingQ,.loadingImg{
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+.loadingQ{
+  width:3.2rem;
+  height:3.2rem;
+  margin:-1.6rem 0 0 -1.6rem;
+  animation:3s linear 0s myrotate;
+  -webkit-animation:3s linear 0s myrotate;/* Safari and Chrome */
+  animation-iteration-count:infinite;
+  -webkit-animation-iteration-count:infinite;
+
+}
+.loadingImg{
+width:1.2rem;
+height:1.08rem;
+margin:-0.54rem 0 0 -.6rem;
+}
+
+@keyframes myrotate{
+  form {transform:rotate(0deg);}    
+  to    {transform:rotate(360deg);}
+}
+@-webkit-keyframes myrotate{/* Safari and Chrome */
+  form {transform:rotate(0deg);}    
+  to    {transform:rotate(360deg);}
+} */
